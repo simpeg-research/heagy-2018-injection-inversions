@@ -11,7 +11,6 @@ sudo: false
 env:
   matrix:
     - TEST=tests/test_notebooks.py
-    - TEST=tests/test_appendix_notebooks.py
 
 before_install:
   - wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
@@ -22,7 +21,7 @@ before_install:
 
 install:
   - conda env create -f environment.yml
-  - source activate emcyl-environment
+  - source activate injection-inversions-environment
   - export MPLBACKEND="agg"
   - pip install -r requirements_dev.txt
 
