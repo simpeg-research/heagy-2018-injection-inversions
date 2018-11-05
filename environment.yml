@@ -1,4 +1,4 @@
-name: injection-inversion-environment
+name: injection-inversions-environment
 
 channels:
   - conda-forge
