@@ -15,7 +15,7 @@ of the thesis ["Electromagnetic methods for imaging subsurface injections"](http
 
 In this chapter, I discuss inversion strategies for imaging subsurface injections with hydraulic fracturing being the application of focus. I consider a DC resistivity experiment where the positive electrode is positioned within a steel-cased borehole and a return electrode is on the surface. I then consider several inversion approaches including a Tikhonov-style inversion and a parametric inversion. I then suggest an approach using effective medium theory to include a-priori information about the injected volume of proppant and fluid. 
 
-<img src="figures/dc_parametric_inversion_phi_correctz0_large_r.png" width=60% align="middle">
+<img src="figures/dc_parametric_inversion_phi_correctz0_large_r.png" width=80% align="middle">
 
 ## Contents
 
