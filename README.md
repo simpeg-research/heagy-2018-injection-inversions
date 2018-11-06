@@ -34,10 +34,10 @@ To run them locally, you will need to have python installed, preferably through 
 You can then clone this reposiroty. From a command line, run
 
 ```
-git clone https://github.com/simpeg-research/heagy-2018-em-casing.git
+git clone https://github.com/simpeg-research/heagy-2018-injection-inversions.git
 ```
 
-Then `cd` into the `heagy-2018-em-casing`
+Then `cd` into the `heagy-2018-injection-inversions`
 
 ```
 cd heagy-2018-em-casing
@@ -47,7 +47,7 @@ To setup your software environment, we recommend you use the provided conda envi
 
 ```
 conda env create -f environment.yml
-source activate em-casing-environment
+source activate injection-inversions-environment
 ```
 
 alternatively, you can install dependencies through pypi
