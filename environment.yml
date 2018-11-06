@@ -13,6 +13,6 @@ dependencies:
   - pip:
     - pymatsolver
     - discretize
-    - SimPEG
+    - git+https://github.com/simpeg/simpeg.git@feat/dc_fields_derivs
     - git+https://github.com/simpeg-research/casingSimulations.git
 
